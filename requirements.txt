@@ -1,0 +1,8 @@
+seaborn
+sys
+os
+numpy
+streamlit
+scikit-learn
+matplotlib
+pandas
