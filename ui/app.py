@@ -16,7 +16,7 @@ import sys
 import os  
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'problem')))
-USE_MOCK = False
+USE_MOCK = True
 
 if not USE_MOCK:
     from problem.scenarioM import get_scenario
